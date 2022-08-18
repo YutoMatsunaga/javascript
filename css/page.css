@@ -1,0 +1,38 @@
+/*タイトル*/
+#square {
+    height: 200px;
+    width: 200px;
+    background: #30dd00;
+}
+.main-title{
+    font-size: 4rem;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+}
+.sub-title{
+    font-size: 3rem;
+    margin-top: 30px;
+}
+
+/*ページを開くときのグレー*/
+#spread {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.42);
+}
+
+/*クリック*/
+.rotation {
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    background-color: #0095ff;
+    transition: transform 0.5s;
+}
+
+.rotation.is-active {
+    transform: rotate(45deg);
+}
